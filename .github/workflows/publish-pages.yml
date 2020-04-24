@@ -1,7 +1,7 @@
 name: Publish GH Pages
 on:
   push:
-    branches: [ jbakeless ]
+    branches: [ master ]
 jobs:
   mvn-compile:
     # The type of runner that the job will run on
