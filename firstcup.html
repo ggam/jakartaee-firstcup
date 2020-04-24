@@ -443,11 +443,7 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 <div id="toc" class="toc2">
 <div id="toctitle">Table of Contents</div>
 <ul class="sectlevel1">
-<li><a href="#jakarta-enterprise-edition-your-first-cup-an-introduction-to-jakarta-ee-release-8">1. Jakarta Enterprise Edition Your First Cup: An Introduction to Jakarta EE, Release 8</a>
-<ul class="sectlevel2">
-<li><a href="#java-platform-enterprise-edition">1.1. Jakarta Enterprise Edition</a></li>
-</ul>
-</li>
+<li><a href="#java-platform-enterprise-edition">1. Jakarta EE Your First Cup: An Introduction to Jakarta EE, Release 8</a></li>
 <li><a href="#preface">2. Preface</a>
 <ul class="sectlevel2">
 <li><a href="#audience">2.1. Audience</a></li>
@@ -462,7 +458,7 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 <li><a href="#prerequisite-tasks-for-completing-this-tutorial">3.2. Prerequisite Tasks for Completing This Tutorial</a></li>
 </ul>
 </li>
-<li><a href="#understanding-jakarta-platform-enterprise-edition">4. Understanding Jakarta Platform, Enterprise Edition</a>
+<li><a href="#understanding-jakarta-platform-enterprise-edition">4. Understanding Jakarta EE Platform</a>
 <ul class="sectlevel2">
 <li><a href="#overview-of-enterprise-applications">4.1. Overview of Enterprise Applications</a></li>
 </ul>
@@ -477,7 +473,7 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 <ul class="sectlevel2">
 <li><a href="#the-firstcup-war-project">6.1. The firstcup-war Project</a></li>
 <li><a href="#creating-the-web-application-project-using-the-archetype">6.2. Creating the Web Application Project Using the Archetype</a></li>
-<li><a href="#modifying-the-java-persistence-api-entity">6.3. Modifying the Java Persistence API Entity</a></li>
+<li><a href="#modifying-the-java-persistence-api-entity">6.3. Modifying Jakarta Persistence Entity</a></li>
 <li><a href="#modifying-the-enterprise-bean">6.4. Modifying the Enterprise Bean</a></li>
 <li><a href="#modifying-the-web-client">6.5. Modifying the Web Client</a></li>
 </ul>
@@ -493,10 +489,8 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 </div>
 <div id="content">
 <div class="sect1">
-<h2 id="jakarta-enterprise-edition-your-first-cup-an-introduction-to-jakarta-ee-release-8"><a class="anchor" href="#jakarta-enterprise-edition-your-first-cup-an-introduction-to-jakarta-ee-release-8"></a>1. Jakarta Enterprise Edition Your First Cup: An Introduction to Jakarta EE, Release 8</h2>
+<h2 id="java-platform-enterprise-edition"><a class="anchor" href="#java-platform-enterprise-edition"></a>1. Jakarta EE Your First Cup: An Introduction to Jakarta EE, Release 8</h2>
 <div class="sectionbody">
-<div class="sect2">
-<h3 id="java-platform-enterprise-edition"><a class="anchor" href="#java-platform-enterprise-edition"></a>1.1. Jakarta Enterprise Edition</h3>
 <div class="paragraph">
 <p>Your First Cup: An Introduction to Jakarta EE</p>
 </div>
@@ -508,7 +502,7 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 </div>
 <hr>
 <div class="paragraph">
-<p>Jakarta Enterprise Edition Your First Cup: An Introduction to
+<p>Jakarta EE Your First Cup: An Introduction to
 Jakarta EE, Release 8</p>
 </div>
 <div class="paragraph">
@@ -536,13 +530,12 @@ trademark of The Open Group.</p>
 </div>
 </div>
 </div>
-</div>
 <div class="sect1">
 <h2 id="preface"><a class="anchor" href="#preface"></a>2. Preface</h2>
 <div class="sectionbody">
 <div class="paragraph">
-<p>This is Your First Cup: An Introduction to Jakarta Platform, Enterprise
-Edition, a short tutorial for beginning Jakarta EE programmers. This
+<p>This is Your First Cup: An Introduction to Jakarta EE Platform,
+a short tutorial for beginning Jakarta EE programmers. This
 tutorial is designed to give you a hands-on lesson on developing an
 enterprise application from initial coding to deployment.</p>
 </div>
@@ -584,13 +577,13 @@ this tutorial:</p>
 <div class="ulist">
 <ul>
 <li>
-<p>The <a href="https://javaee.github.io/tutorial">Jakarta EE Tutorial</a></p>
+<p>The <a href="https://eclipse-ee4j.github.io/jakartaee-tutorial/">Jakarta EE Tutorial</a></p>
 </li>
 <li>
-<p>The GlassFish Server Open Source Edition documentation set</p>
+<p>The GlassFish documentation set</p>
 </li>
 <li>
-<p>The NetBeans IDE documentation</p>
+<p>The Apache NetBeans IDE documentation</p>
 </li>
 </ul>
 </div>
@@ -601,7 +594,7 @@ this tutorial:</p>
 <p>The following table describes the typographic conventions that are used
 in this book.</p>
 </div>
-<table class="tableblock frame-all grid-all" style="width: 75%;">
+<table class="tableblock frame-all grid-all stretch">
 <colgroup>
 <col style="width: 20.4081%;">
 <col style="width: 39.7959%;">
@@ -705,10 +698,10 @@ first:</p>
 <p><a href="#get-the-jakarta-ee-8-sdk">Get the Jakarta EE 8 SDK</a></p>
 </li>
 <li>
-<p><a href="#install-the-netbeans-ide-distribution-for-java-ee">Install the NetBeans IDE distribution for Java EE</a></p>
+<p><a href="#install-the-netbeans-ide-distribution-for-java-ee">Install the Apache NetBeans IDE distribution for Jakarta EE</a></p>
 </li>
 <li>
-<p><a href="#add-glassfish-server-as-a-server-in-netbeans-ide">Add GlassFish Server as a server in NetBeans IDE</a></p>
+<p><a href="#add-glassfish-server-as-a-server-in-netbeans-ide">Add GlassFish Server as a server in Apache NetBeans IDE</a></p>
 </li>
 </ul>
 </div>
@@ -717,10 +710,10 @@ first:</p>
 <div class="paragraph">
 <p>This tutorial is compatible with the following software:</p>
 </div>
-<table class="tableblock frame-all grid-all" style="width: 55%;">
+<table class="tableblock frame-all grid-all stretch">
 <colgroup>
-<col style="width: 33.3333%;">
-<col style="width: 66.6667%;">
+<col style="width: 30%;">
+<col style="width: 70%;">
 </colgroup>
 <tbody>
 <tr>
@@ -728,15 +721,19 @@ first:</p>
 <td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Version</strong></p></td>
 </tr>
 <tr>
-<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="http://www.oracle.com/technetwork/java/javase/downloads/index.html">Java Development Kit (JDK)</a></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="https://adoptopenjdk.net/">Java Development Kit (JDK)</a></p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock">8 update 144 (8u144) or greater</p></td>
 </tr>
 <tr>
-<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="https://javaee.github.io/glassfish/">GlassFish Server</a></p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">5.0 or greater</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="https://eclipse-ee4j.github.io/glassfish/">GlassFish Server</a></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">5.1 or greater</p></td>
 </tr>
 <tr>
-<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="https://netbeans.org/">NetBeans IDE</a></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="https://github.com/eclipse-ee4j/jakartaee-firstcup-examples/">Fist Cup Examples</a></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Git repository</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="https://netbeans.apache.org/">Apache NetBeans IDE</a></p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock">8.2 or greater</p></td>
 </tr>
 <tr>
@@ -749,33 +746,33 @@ first:</p>
 <div class="sect3">
 <h4 id="get-the-jakarta-ee-8-sdk"><a class="anchor" href="#get-the-jakarta-ee-8-sdk"></a>3.2.2. Get the Jakarta EE 8 SDK</h4>
 <div class="paragraph">
-<p>To get the Jakarta EE 8 SDK, go to
-<code><a href="http://www.oracle.com/technetwork/java/jakartaee/downloads/" class="bare">http://www.oracle.com/technetwork/java/jakartaee/downloads/</a></code>. Download and
+<p>To get GlassFish, go to
+<code><a href="https://eclipse-ee4j.github.io/glassfish/download" class="bare">https://eclipse-ee4j.github.io/glassfish/download</a></code>. Download and
 install the SDK. The location where you install it is typically
 <code>glassfish5</code> in your home directory, but you can change this.</p>
 </div>
 <div class="paragraph">
-<p>The tutorial is installed in the <code>docs/firstcup</code> directory of your SDK
-installation.</p>
+<p>You need to download the code from this tutorial separately, from its Git
+repository, at <code><a href="https://github.com/eclipse-ee4j/jakartaee-firstcup-examples/" class="bare">https://github.com/eclipse-ee4j/jakartaee-firstcup-examples/</a></code></p>
 </div>
 </div>
 <div class="sect3">
-<h4 id="install-the-netbeans-ide-distribution-for-java-ee"><a class="anchor" href="#install-the-netbeans-ide-distribution-for-java-ee"></a>3.2.3. Install the NetBeans IDE Distribution for Java EE</h4>
+<h4 id="install-the-netbeans-ide-distribution-for-java-ee"><a class="anchor" href="#install-the-netbeans-ide-distribution-for-java-ee"></a>3.2.3. Install the Apache NetBeans IDE Distribution for Jakarta EE</h4>
 <div class="paragraph">
-<p>To get NetBeans IDE, go to <code><a href="https://netbeans.org/downloads/" class="bare">https://netbeans.org/downloads/</a></code> and
-download the Java EE distribution. Install this distribution.</p>
+<p>To get Apache NetBeans IDE, go to <code><a href="https://netbeans.apache.org/download/" class="bare">https://netbeans.apache.org/download/</a></code> and
+download the Jakarta EE distribution. Install this distribution.</p>
 </div>
 </div>
 <div class="sect3">
-<h4 id="add-glassfish-server-as-a-server-in-netbeans-ide"><a class="anchor" href="#add-glassfish-server-as-a-server-in-netbeans-ide"></a>3.2.4. Add GlassFish Server as a Server in NetBeans IDE</h4>
+<h4 id="add-glassfish-server-as-a-server-in-netbeans-ide"><a class="anchor" href="#add-glassfish-server-as-a-server-in-netbeans-ide"></a>3.2.4. Add GlassFish Server as a Server in Apache NetBeans IDE</h4>
 <div class="paragraph">
 <p>Once you have all the necessary downloads, you must configure NetBeans
 IDE and get the latest tutorial updates.</p>
 </div>
 <div class="paragraph">
-<p>To run this tutorial in NetBeans IDE, you must register your GlassFish
+<p>To run this tutorial in Apache NetBeans IDE, you must register your GlassFish
 Server installation as a NetBeans server instance. Follow these
-instructions to register the GlassFish Server in NetBeans IDE.</p>
+instructions to register the GlassFish Server in Apache NetBeans IDE.</p>
 </div>
 <div class="olist arabic">
 <ol class="arabic">
@@ -808,7 +805,7 @@ GlassFish Server installation.</p>
 </div>
 </div>
 <div class="sect1">
-<h2 id="understanding-jakarta-platform-enterprise-edition"><a class="anchor" href="#understanding-jakarta-platform-enterprise-edition"></a>4. Understanding Jakarta Platform, Enterprise Edition</h2>
+<h2 id="understanding-jakarta-platform-enterprise-edition"><a class="anchor" href="#understanding-jakarta-platform-enterprise-edition"></a>4. Understanding Jakarta EE Platform</h2>
 <div class="sectionbody">
 <div class="paragraph">
 <p>This chapter describes the basic concepts behind enterprise application
@@ -896,13 +893,11 @@ beans</p>
 </ul>
 </div>
 <div class="paragraph">
-<p><a href="#GCTOG">Table 2-1</a> lists some of the main Jakarta EE technologies that
+<p>The following table lists some of the main Jakarta EE technologies that
 are used in the web tier in Jakarta EE applications.</p>
 </div>
-<div id="GCTOG" class="paragraph">
-<p>Table 2-1 Web-Tier Jakarta EE Technologies</p>
-</div>
-<table class="tableblock frame-all grid-all" style="width: 80%;">
+<table class="tableblock frame-all grid-all stretch">
+<caption class="title">Table 1. <strong>Web-Tier Jakarta EE Technologies</strong></caption>
 <colgroup>
 <col style="width: 25.2525%;">
 <col style="width: 74.7475%;">
@@ -913,7 +908,7 @@ are used in the web tier in Jakarta EE applications.</p>
 <td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Purpose</strong></p></td>
 </tr>
 <tr>
-<td class="tableblock halign-left valign-top"><p class="tableblock">JavaServer Faces technology</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Jakarta Server Faces technology</p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock">A user interface component framework for
 web applications that allows you to include UI components (such as
 fields and buttons) on a XHTML page, called a Facelets page; convert and
@@ -931,7 +926,7 @@ refer to Jakarta EE components</p></td>
 requests and construct responses, usually for HTML pages</p></td>
 </tr>
 <tr>
-<td class="tableblock halign-left valign-top"><p class="tableblock">Contexts and Dependency Injection for Java EE</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Jakarta Contexts and Dependency Injection</p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock">A set of contextual
 services that make it easy for developers to use enterprise beans along
 with JavaServer Faces technology in web applications</p></td>
@@ -955,13 +950,13 @@ business tier in Jakarta EE applications:</p>
 <div class="ulist">
 <ul>
 <li>
-<p>Enterprise JavaBeans (enterprise bean) components</p>
+<p>Jakarta Enterprise Beans components</p>
 </li>
 <li>
-<p>JAX-RS RESTful web services</p>
+<p>Jakarta RESTful Web Services</p>
 </li>
 <li>
-<p>Java Persistence API entities</p>
+<p>Jakarta Persistence entities</p>
 </li>
 </ul>
 </div>
@@ -985,13 +980,13 @@ Jakarta EE applications:</p>
 <p>The Java Database Connectivity API (JDBC)</p>
 </li>
 <li>
-<p>The Java Persistence API</p>
+<p>Jakarta Persistence</p>
 </li>
 <li>
-<p>The Jakarta EE Connector Architecture</p>
+<p>Jakarta Connectors</p>
 </li>
 <li>
-<p>The Java Transaction API (JTA)</p>
+<p>Jakarta Transactions</p>
 </li>
 </ul>
 </div>
@@ -1024,18 +1019,18 @@ in an enterprise application.</p>
 <h4 id="the-web-container"><a class="anchor" href="#the-web-container"></a>4.1.3. The Web Container</h4>
 <div class="paragraph">
 <p>The web container is the interface between web components and the web
-server. A web component can be a servlet or a JavaServer Faces Facelets
+server. A web component can be a servlet or a Jakarta Server Faces Facelets
 page. The container manages the component&#8217;s life cycle, dispatches
 requests to application components, and provides interfaces to context
 data, such as information about the current request.</p>
 </div>
 </div>
 <div class="sect3">
-<h4 id="the-ejb-container"><a class="anchor" href="#the-ejb-container"></a>4.1.4. The EJB Container</h4>
+<h4 id="the-ejb-container"><a class="anchor" href="#the-ejb-container"></a>4.1.4. The enterprise bean Container</h4>
 <div class="paragraph">
-<p>The EJB container is the interface between enterprise beans, which
+<p>The enterprise bean container is the interface between enterprise beans, which
 provide the business logic in a Jakarta EE application, and the Jakarta EE
-server. The EJB container runs on the Jakarta EE server and manages the
+server. The enterprise bean container runs on the Jakarta EE server and manages the
 execution of an application&#8217;s enterprise beans.</p>
 </div>
 </div>
@@ -1065,17 +1060,17 @@ service example application.</p>
 <h3 id="architecture-of-the-example-applications"><a class="anchor" href="#architecture-of-the-example-applications"></a>5.1. Architecture of the Example Applications</h3>
 <div class="paragraph">
 <p>The example applications consist of four main components:
-<code>DukesAgeResource</code>, a JAX-RS RESTful web service; <code>DukesBirthdayBean</code>,
+<code>DukesAgeResource</code>, a Jakarta RESTful web service; <code>DukesBirthdayBean</code>,
 an enterprise bean; <code>FirstcupUser</code>, a Java Persistence API entity; and
 <code>firstcup-war</code>, a web application created with JavaServer Faces Facelets
 technology.</p>
 </div>
-<div id="GJBEW" class="paragraph">
-<div class="title"><strong>Figure 3-1 Architecture of the First Cup Example Applications</strong></div>
+<div class="paragraph">
+<div class="title"><strong>Architecture of the First Cup Example Applications</strong></div>
 <p><span class="image"><img src="data:image/png;base64,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" alt="Architecture of First Cup example applications."></span></p>
 </div>
 <div class="paragraph">
-<p><code>DukesAgeResource</code> is a JAX-RS resource that calculates the age of Duke,
+<p><code>DukesAgeResource</code> is a Jakarta REST resource that calculates the age of Duke,
 the Java mascot. Duke was born May 23, 1995, when the first demo of Java
 technology was publicly released.</p>
 </div>
@@ -1085,12 +1080,12 @@ that calculates the difference between the user&#8217;s age and Duke&#8217;s age
 stores the user-submitted data in a Java Persistence API entity.</p>
 </div>
 <div class="paragraph">
-<p><code>FirstcupUser</code> is a Java Persistence API entity that represents a
+<p><code>FirstcupUser</code> is a Jakarta Persistence entity that represents a
 particular user&#8217;s birthday. It is stored in an Apache Derby table and
 managed by the <code>DukesBirthdayBean</code> business methods.</p>
 </div>
 <div class="paragraph">
-<p>The <code>firstcup-war</code> web application is a JavaServer Faces Facelets
+<p>The <code>firstcup-war</code> web application is a Jakarta Server Faces Facelets
 application that accesses <code>DukesAgeResource</code> to display Duke&#8217;s age,
 reads in a date provided by the user, accesses <code>DukesBirthdayBean</code> to
 calculate who is older, and then displays the difference in years
@@ -1115,7 +1110,7 @@ difference of all users.</p>
 </li>
 <li>
 <p><code>DukesBDay.java</code>: A CDI managed bean that defines properties to hold
-the user&#8217;s birth date, uses the JAX-RS Client API to get Duke&#8217;s current
+the user&#8217;s birth date, uses the Jakarta REST Client API to get Duke&#8217;s current
 age from the <code>DukesAgeResource</code> web service, and calculates the age
 difference between the user and Duke from the enterprise bean.</p>
 </li>
@@ -1157,12 +1152,12 @@ through the web tier.</p>
 <div class="sect3">
 <h4 id="jakarta-ee-technologies-used-in-the-example-applications"><a class="anchor" href="#jakarta-ee-technologies-used-in-the-example-applications"></a>5.1.2. Jakarta EE Technologies Used in the Example Applications</h4>
 <div class="paragraph">
-<p>The <code>DukesAgeResource</code> web service is a JAX-RS resource. The
+<p>The <code>DukesAgeResource</code> web service is a Jakarta REST resource. The
 <code>DukesBirthdayBean</code> enterprise bean is a stateless session bean. The
-<code>FirstcupUser</code> entity is a Java Persistence API entity. The <code>DukesBDay</code>
-CDI managed bean uses the JAX-RS client API to access the
+<code>FirstcupUser</code> entity is a Jakarta Persistence entity. The <code>DukesBDay</code>
+CDI managed bean uses the Jakarta REST client API to access the
 <code>DukesAgeResource</code> web service. The <code>firstcup-war</code> web client is a
-JavaServer Faces application that runs in the web container of the Java
+JavaServer Faces application that runs in the web container of the Jakarta
 EE server.</p>
 </div>
 </div>
@@ -1171,7 +1166,7 @@ EE server.</p>
 <h3 id="coding-the-dukes-age-example-application"><a class="anchor" href="#coding-the-dukes-age-example-application"></a>5.2. Coding the dukes-age Example Application</h3>
 <div class="paragraph">
 <p>This section describes how to code the <code>dukes-age</code> example application,
-a web application containing a JAX-RS RESTful web service endpoint.</p>
+a web application containing a Jakarta RESTful web service endpoint.</p>
 </div>
 <div class="sect3">
 <h4 id="getting-started"><a class="anchor" href="#getting-started"></a>5.2.1. Getting Started</h4>
@@ -1182,8 +1177,8 @@ configuration tasks:</p>
 <div class="olist arabic">
 <ol class="arabic">
 <li>
-<p>Register the server with your NetBeans IDE as described in
-<a href="intro002.html#GIOEW">Add GlassFish Server as a Server in NetBeans
+<p>Register the server with your Apache NetBeans IDE as described in
+<a href="#add-glassfish-server-as-a-server-in-netbeans-ide">Add GlassFish Server as a Server in NetBeans
 IDE</a>.</p>
 </li>
 <li>
@@ -1208,9 +1203,8 @@ repository by following these steps:</p>
 <div class="olist arabic">
 <ol class="arabic">
 <li>
-<p>In NetBeans IDE select <strong>File</strong>, then <strong>Open Project</strong>, navigate to the
-location where you installed the tutorial (usually
-<code>glassfish5/docs/firstcup</code>), select <code>example</code>, deselect the <strong>Open
+<p>In Apache NetBeans IDE select <strong>File</strong>, then <strong>Open Project</strong>, navigate to the
+location where you cloned the tutorial repository, select <code>example</code>, deselect the <strong>Open
 Required Projects</strong> check box, and click <strong>Open Project</strong>.</p>
 </li>
 <li>
@@ -1250,9 +1244,9 @@ client. The <code>dukes-age</code> web application could be deployed on a comple
 without affecting the functionality of the <code>firstcup-war</code> web client.</p>
 </div>
 <div class="sect4">
-<h5 id="jax-rs-resources"><a class="anchor" href="#jax-rs-resources"></a>5.2.2.1. JAX-RS Resources</h5>
+<h5 id="jax-rs-resources"><a class="anchor" href="#jax-rs-resources"></a>5.2.2.1. Jakarta REST Resources</h5>
 <div class="paragraph">
-<p>The <code>DukesAgeResource</code> class is a JAX-RS resource class that responds to HTTP GET
+<p>The <code>DukesAgeResource</code> class is a Jakarta REST resource class that responds to HTTP GET
 requests and returns a <code>String</code> representing the age of Duke at the time
 of the request.</p>
 </div>
@@ -1274,9 +1268,8 @@ MIME-type is <code>text/plain</code>.</p>
 <p>In NetBeans IDE, create a new web project using the
 <code>dukes-age-archetype</code> Maven archetype.</p>
 </div>
-<div class="paragraph">
-<p>Create the Project in NetBeans IDE </p>
-</div>
+<div class="sect5">
+<h6 id="create-the-project-in-apache-netbeans-ide"><a class="anchor" href="#create-the-project-in-apache-netbeans-ide"></a>Create the Project in Apache NetBeans IDE </h6>
 <div class="olist arabic">
 <ol class="arabic">
 <li>
@@ -1335,9 +1328,9 @@ endpoint application, including:</p>
 will configure how the application will run, implement the functionality
 of the resource class, and then deploy the application.</p>
 </div>
-<div class="paragraph">
-<p>Configure the dukes-age Web Application</p>
 </div>
+<div class="sect5">
+<h6 id="configure-the-dukes-age-web-application"><a class="anchor" href="#configure-the-dukes-age-web-application"></a>Configure the dukes-age Web Application</h6>
 <div class="paragraph">
 <p>Set the default URL that is brought up in a web browser when you run
 <code>dukes-age</code>.</p>
@@ -1362,9 +1355,9 @@ of the resource class, and then deploy the application.</p>
 </li>
 </ol>
 </div>
-<div class="paragraph">
-<p>Implement the getText Method</p>
 </div>
+<div class="sect5">
+<h6 id="implement-the-gettext-method"><a class="anchor" href="#implement-the-gettext-method"></a>Implement the getText Method</h6>
 <div class="paragraph">
 <p>Add code to <code>DukesAgeResource.getText</code> that calculates Duke&#8217;s age at the
 time of the request. To do this, use the <code>java.util.Calendar</code> and
@@ -1413,6 +1406,7 @@ dukesBirthday.add(<span class="predefined-type">Calendar</span>.YEAR, dukesAge);
 </ol>
 </div>
 </div>
+</div>
 <div class="sect4">
 <h5 id="starting-glassfish-server-and-the-database-server"><a class="anchor" href="#starting-glassfish-server-and-the-database-server"></a>5.2.2.3. Starting GlassFish Server and the Database Server</h5>
 <div class="paragraph">
@@ -1440,7 +1434,7 @@ the contents of the server log.</p>
 <div class="sect4">
 <h5 id="building-and-deploying-the-web-service-endpoint"><a class="anchor" href="#building-and-deploying-the-web-service-endpoint"></a>5.2.2.4. Building and Deploying the Web Service Endpoint</h5>
 <div class="paragraph">
-<p>Build <code>dukes-age.war</code>, the JAX-RS web application, and deploy it to your
+<p>Build <code>dukes-age.war</code>, the Jakarta REST web application, and deploy it to your
 GlassFish Server instance.</p>
 </div>
 <div class="paragraph">
@@ -1467,29 +1461,29 @@ this web service data.</p>
 <div class="paragraph">
 <p>This chapter gives step-by-step instructions on coding and running the
 <code>firstcup-war</code> web application, which uses the <code>dukes-age</code> web service
-described in <a href="creating-example.html#GCRKP">Chapter 3, "Creating Your
-First Jakarta EE Application"</a>. The <code>firstcup-war</code> web application is a
+described in <a href="#creating-your-first-jakarta-ee-application">"Creating Your
+First Jakarta EE Application" chapter</a>. The <code>firstcup-war</code> web application is a
 more complicated application that uses several different Jakarta EE APIs.</p>
 </div>
 <div class="sect2">
 <h3 id="the-firstcup-war-project"><a class="anchor" href="#the-firstcup-war-project"></a>6.1. The firstcup-war Project</h3>
 <div class="paragraph">
-<p>The <code>firstcup-war</code> web application project consists of the Java
-Persistence API entity, the enterprise bean, and the JavaServer Faces
+<p>The <code>firstcup-war</code> web application project consists of the Jakarta
+Persistence entity, the enterprise bean, and the Jakarta Server Faces
 web front end.</p>
 </div>
 <div class="paragraph">
 <p>The <code>firstcup-war</code> example application consumes the data from the
-<code>dukes-age</code> web service using the JAX-RS client API. A JavaServer Faces
+<code>dukes-age</code> web service using the Jakarta REST client API. A Jakarta Server Faces
 web front end asks users to enter their birthdays to find out who is
 older, the user or Duke. This data is stored in an Apache Derby database table
-using the Java Persistence API. The business logic, which provides the
+using Jakarta Persistence. The business logic, which provides the
 core functionality of the application, is handled by an enterprise bean.</p>
 </div>
 <div class="paragraph">
-<p>All the tiers described in <a href="jakarta-ee001.html#GCRKR">Tiered
+<p>All the tiers described in <a href="#tiered-applications">Tiered
 Applications</a> are present in the <code>firstcup-war</code> web application. The web
-or client tier is the JavaServer Faces front end. The enterprise
+or client tier is the Jakarta Server Faces front end. The enterprise
 information systems, or EIS, tier is the Derby database. The business
 tier is the enterprise bean.</p>
 </div>
@@ -1498,7 +1492,7 @@ tier is the enterprise bean.</p>
 <h3 id="creating-the-web-application-project-using-the-archetype"><a class="anchor" href="#creating-the-web-application-project-using-the-archetype"></a>6.2. Creating the Web Application Project Using the Archetype</h3>
 <div class="paragraph">
 <p>Follow these steps to create a new web application project using the
-<code>firstcup-war-archetype</code> in NetBeans IDE.</p>
+<code>firstcup-war-archetype</code> in Apache NetBeans IDE.</p>
 </div>
 <div class="olist arabic">
 <ol class="arabic">
@@ -1566,16 +1560,16 @@ application.</p>
 </div>
 </div>
 <div class="sect2">
-<h3 id="modifying-the-java-persistence-api-entity"><a class="anchor" href="#modifying-the-java-persistence-api-entity"></a>6.3. Modifying the Java Persistence API Entity</h3>
+<h3 id="modifying-the-java-persistence-api-entity"><a class="anchor" href="#modifying-the-java-persistence-api-entity"></a>6.3. Modifying Jakarta Persistence Entity</h3>
 <div class="paragraph">
-<p>The Java Persistence API allows you to create and use Java programming
+<p>Jakarta Persistence allows you to create and use Java programming
 language classes that represent data in a database table. A Java
 Persistence API <em>entity</em> is a lightweight, persistent Java programming
 language object that represents data in a data store. To create or
 modify entities, or to remove them from the data store, call the
-operations of the Java Persistence API <em>entity manager</em>. To query
+operations of Jakarta Persistence <em>entity manager</em>. To query
 entities, or to query the data encapsulated by the persistent fields or
-properties of a entity, use the Java Persistence Query Language (JPQL),
+properties of a entity, use the Jakarta Persistence Query Language (JPQL),
 a language similar to SQL that operates on entities.</p>
 </div>
 <div class="paragraph">
@@ -1737,7 +1731,7 @@ code in bold:</p>
 <div class="listingblock">
 <div class="content">
 <pre class="CodeRay highlight"><code data-lang="java"><span class="directive">public</span> <span class="type">int</span> getAgeDifference(<span class="predefined-type">Date</span> date) {
-    *<span class="type">int</span> ageDifference;
+    <span class="type">int</span> ageDifference;
 
     <span class="predefined-type">Calendar</span> theirBirthday = <span class="keyword">new</span> <span class="predefined-type">GregorianCalendar</span>();
     <span class="predefined-type">Calendar</span> dukesBirthday = <span class="keyword">new</span> <span class="predefined-type">GregorianCalendar</span>(<span class="integer">1995</span>, <span class="predefined-type">Calendar</span>.MAY, <span class="integer">23</span>);
@@ -1746,8 +1740,7 @@ code in bold:</p>
     theirBirthday.setTime(date);
 
     <span class="comment">// Subtract the user's age from Duke's age</span>
-    ageDifference = dukesBirthday.get(<span class="predefined-type">Calendar</span>.YEAR)
-        - theirBirthday.get(<span class="predefined-type">Calendar</span>.YEAR);
+    ageDifference = dukesBirthday.get(<span class="predefined-type">Calendar</span>.YEAR) - theirBirthday.get(<span class="predefined-type">Calendar</span>.YEAR);
     logger.log(<span class="predefined-type">Level</span>.INFO, <span class="string"><span class="delimiter">&quot;</span><span class="content">Raw ageDifference is: {0}</span><span class="delimiter">&quot;</span></span>,  ageDifference);
     <span class="comment">// Check to see if Duke's birthday occurs before the user's. If so,</span>
     <span class="comment">// subtract one from the age difference</span>
@@ -1761,7 +1754,7 @@ code in bold:</p>
 
     logger.log(<span class="predefined-type">Level</span>.INFO, <span class="string"><span class="delimiter">&quot;</span><span class="content">Final ageDifference is: {0}</span><span class="delimiter">&quot;</span></span>,  ageDifference);
 
-    <span class="keyword">return</span> ageDifference;*
+    <span class="keyword">return</span> ageDifference;
 }</code></pre>
 </div>
 </div>
@@ -1819,7 +1812,7 @@ the following tasks:</p>
 bean is a lightweight container-managed object that supports a set of
 basic services. A backing bean is a managed bean that provides temporary
 data storage for the values of the components included on a particular
-JavaServer Faces page. The JavaServer Faces application instantiates the
+Jakarta Server Faces page. The Jakarta Server Faces application instantiates the
 managed bean and stores it in scope. The section following this one
 describes more about managed beans and how to configure them.</p>
 </div>
@@ -1830,7 +1823,7 @@ describes more about managed beans and how to configure them.</p>
 <h5 id="call-the-dukes-age-web-service-to-retrieve-dukes-current-age"><a class="anchor" href="#call-the-dukes-age-web-service-to-retrieve-dukes-current-age"></a>6.5.1.1. Call the dukes-age Web Service to Retrieve Duke&#8217;s Current Age</h5>
 <div class="paragraph">
 <p>Now modify the <code>getAge</code> method of <code>DukesBDay</code> to call the <code>dukes-age</code>
-web service using the JAX-RS Client API. This will retrieve Duke&#8217;s
+web service using the Jakarta REST Client API. This will retrieve Duke&#8217;s
 current age, so it can be compared to the user&#8217;s age.</p>
 </div>
 <div class="olist arabic">
@@ -1846,7 +1839,7 @@ and pasting the following code in bold:</p>
 <div class="listingblock">
 <div class="content">
 <pre class="CodeRay highlight"><code data-lang="java"><span class="directive">public</span> <span class="type">int</span> getAge() {
-    *<span class="keyword">try</span> {
+    <span class="keyword">try</span> {
         Client client = ClientBuilder.newClient();
         WebTarget target = client.target(<span class="string"><span class="delimiter">&quot;</span><span class="content">http://localhost:8080/dukes-age/webapi/dukesAge</span><span class="delimiter">&quot;</span></span>);
         <span class="predefined-type">String</span> response = target.request().get(<span class="predefined-type">String</span>.class);
@@ -1854,7 +1847,7 @@ and pasting the following code in bold:</p>
     } <span class="keyword">catch</span> (<span class="exception">IllegalArgumentException</span> | <span class="exception">NullPointerException</span> | WebApplicationException ex) {
         logger.severe(<span class="string"><span class="delimiter">&quot;</span><span class="content">processing of HTTP response failed</span><span class="delimiter">&quot;</span></span>);
     }
-    <span class="keyword">return</span> age;*
+    <span class="keyword">return</span> age;
 }</code></pre>
 </div>
 </div>
@@ -1872,7 +1865,7 @@ and pasting the following code in bold:</p>
 <h5 id="get-the-age-difference-from-the-dukesbirthdaybean-enterprise-bean"><a class="anchor" href="#get-the-age-difference-from-the-dukesbirthdaybean-enterprise-bean"></a>6.5.1.2. Get the Age Difference from the DukesBirthdayBean Enterprise Bean</h5>
 <div class="paragraph">
 <p>Now modify the <code>processBirthday</code> method to get the difference in age
-between the user&#8217;s age and Duke&#8217;s age from the <code>DukesBirthdayBean</code> EJB,
+between the user&#8217;s age and Duke&#8217;s age from the <code>DukesBirthdayBean</code> enterprise bean,
 set the <code>absAgeDiff</code> variable to the absolute value of the age
 difference, and set a result string that will forward the user to the
 display page.</p>
@@ -1885,13 +1878,13 @@ copying and pasting the following code in bold:</p>
 <div class="listingblock">
 <div class="content">
 <pre class="CodeRay highlight"><code data-lang="java"><span class="directive">public</span> <span class="predefined-type">String</span> processBirthday() {
-    *<span class="local-variable">this</span>.setAgeDiff(dukesBirthdayBean.getAgeDifference(yourBD));
+    <span class="local-variable">this</span>.setAgeDiff(dukesBirthdayBean.getAgeDifference(yourBD));
     logger.log(<span class="predefined-type">Level</span>.INFO, <span class="string"><span class="delimiter">&quot;</span><span class="content">age diff from dukesbday {0}</span><span class="delimiter">&quot;</span></span>, ageDiff);
     <span class="local-variable">this</span>.setAbsAgeDiff(<span class="predefined-type">Math</span>.abs(<span class="local-variable">this</span>.getAgeDiff()));
     logger.log(<span class="predefined-type">Level</span>.INFO, <span class="string"><span class="delimiter">&quot;</span><span class="content">absAgeDiff {0}</span><span class="delimiter">&quot;</span></span>, absAgeDiff);
     <span class="local-variable">this</span>.setAverageAgeDifference(dukesBirthdayBean.getAverageAgeDifference());
     logger.log(<span class="predefined-type">Level</span>.INFO, <span class="string"><span class="delimiter">&quot;</span><span class="content">averageAgeDifference {0}</span><span class="delimiter">&quot;</span></span>, averageAgeDifference);
-    <span class="keyword">return</span> <span class="string"><span class="delimiter">&quot;</span><span class="content">/response.xhtml</span><span class="delimiter">&quot;</span></span>;*
+    <span class="keyword">return</span> <span class="string"><span class="delimiter">&quot;</span><span class="content">/response.xhtml</span><span class="delimiter">&quot;</span></span>;
 }</code></pre>
 </div>
 </div>
@@ -1923,7 +1916,7 @@ component</em>, and two XHTML files.</p>
 <div class="sect4">
 <h5 id="resource-libraries-in-firstcup-war"><a class="anchor" href="#resource-libraries-in-firstcup-war"></a>6.5.2.1. Resource Libraries in firstcup-war</h5>
 <div class="paragraph">
-<p>A JavaServer Faces resource library is a collection of user-created
+<p>A Jakarta Server Faces resource library is a collection of user-created
 components collected in a standard location in a web application.
 Resource libraries are identified according to a <em>resource identifier</em>, a
 string that represents a particular resource within a web application.
@@ -1972,7 +1965,7 @@ root at <code>resources/components/inputDate.xhtml</code>.</p>
 <div class="sect4">
 <h5 id="the-inputdate-composite-component"><a class="anchor" href="#the-inputdate-composite-component"></a>6.5.2.2. The inputDate Composite Component</h5>
 <div class="paragraph">
-<p>A composite component is a set of user-defined JavaServerFaces and
+<p>A composite component is a set of user-defined Jakarta Server Faces and
 Facelets components located in a resource. In <code>firstcup-war</code>, the
 <code>inputDate.xhtml</code> resource, located in the <code>components</code> resource
 library, is a composite component that contains tags for reading in a
@@ -2000,7 +1993,7 @@ single attribute, <code>date</code>, that must be specified in pages that use th
 <p>The implementation of the composite component is specified with the
 <code>&lt;cc:implementation&gt;</code> tag. The tags within the <code>&lt;cc:implementation&gt;</code> are
 the actual component tags that will be added to pages that use the
-composite component. They can be any HTML render kit, JavaServer Faces,
+composite component. They can be any HTML render kit, Jakarta Server Faces,
 or Facelets tags. The <code>#{cc.attrs.<code>attribute-name</code>}</code> expression is
 used to get the value of the specified attribute from the page or
 component that is using the composite component.</p>
@@ -2008,7 +2001,7 @@ component that is using the composite component.</p>
 <div class="paragraph">
 <p>The implementation of the <code>inputDate</code> composite component is as follows.
 An HTML input text component will store the entered text into the <code>date</code>
-attribute, accessed by the <code>#{cc.attrs.date}</code> expression. A JavaServer
+attribute, accessed by the <code>#{cc.attrs.date}</code> expression. A Jakarta Server
 Faces <code>convertDateTime</code> component will convert the entered text to a
 date with the form of <code>MM/dd/yyyy</code> (04/13/2014, for example).</p>
 </div>
@@ -2048,7 +2041,7 @@ and closing <code>&lt;cc:interface&gt;</code> tags in <code>inputDate.xhtml</cod
 <div class="listingblock">
 <div class="content">
 <pre class="CodeRay highlight"><code data-lang="xml"><span class="tag">&lt;cc:interface&gt;</span>
-    *<span class="tag">&lt;cc:attribute</span> <span class="attribute-name">name</span>=<span class="string"><span class="delimiter">&quot;</span><span class="content">date</span><span class="delimiter">&quot;</span></span> <span class="tag">/&gt;</span>*
+    <span class="tag">&lt;cc:attribute</span> <span class="attribute-name">name</span>=<span class="string"><span class="delimiter">&quot;</span><span class="content">date</span><span class="delimiter">&quot;</span></span> <span class="tag">/&gt;</span>
 <span class="tag">&lt;/cc:interface&gt;</span></code></pre>
 </div>
 </div>
@@ -2059,11 +2052,11 @@ closing <code>cc:implementation</code> tags:</p>
 <div class="listingblock">
 <div class="content">
 <pre class="CodeRay highlight"><code data-lang="xml"><span class="tag">&lt;cc:implementation&gt;</span>
-    *<span class="tag">&lt;h:inputText</span> <span class="attribute-name">id</span>=<span class="string"><span class="delimiter">&quot;</span><span class="content">getdate</span><span class="delimiter">&quot;</span></span> <span class="attribute-name">value</span>=<span class="string"><span class="delimiter">&quot;</span><span class="content">#{cc.attrs.date}</span><span class="delimiter">&quot;</span></span><span class="tag">&gt;</span>
+    <span class="tag">&lt;h:inputText</span> <span class="attribute-name">id</span>=<span class="string"><span class="delimiter">&quot;</span><span class="content">getdate</span><span class="delimiter">&quot;</span></span> <span class="attribute-name">value</span>=<span class="string"><span class="delimiter">&quot;</span><span class="content">#{cc.attrs.date}</span><span class="delimiter">&quot;</span></span><span class="tag">&gt;</span>
     <span class="tag">&lt;f:convertDateTime</span> <span class="attribute-name">pattern</span>=<span class="string"><span class="delimiter">&quot;</span><span class="content">MM/dd/yyyy</span><span class="delimiter">&quot;</span></span> <span class="tag">/&gt;</span>
     <span class="tag">&lt;/h:inputText&gt;</span>
     <span class="tag">&lt;p</span><span class="tag">/&gt;</span>
-    <span class="tag">&lt;h:message</span> <span class="attribute-name">for</span>=<span class="string"><span class="delimiter">&quot;</span><span class="content">getdate</span><span class="delimiter">&quot;</span></span> <span class="attribute-name">style</span>=<span class="string"><span class="delimiter">&quot;</span><span class="key">color</span>:<span class="value">red</span><span class="delimiter">&quot;</span></span> <span class="tag">/&gt;</span>*
+    <span class="tag">&lt;h:message</span> <span class="attribute-name">for</span>=<span class="string"><span class="delimiter">&quot;</span><span class="content">getdate</span><span class="delimiter">&quot;</span></span> <span class="attribute-name">style</span>=<span class="string"><span class="delimiter">&quot;</span><span class="key">color</span>:<span class="value">red</span><span class="delimiter">&quot;</span></span> <span class="tag">/&gt;</span>
 <span class="tag">&lt;/cc:implementation&gt;</span></code></pre>
 </div>
 </div>
@@ -2089,7 +2082,7 @@ difference between the user and Duke.</p>
 <p>The <code>greeting.xhtml</code> file contains several pieces of the <code>firstcup-war</code>
 application detailed previously. It uses the localized strings contained
 in <code>WebMessages.properties</code> and <code>WebMessages_es.properties</code>. It uses the
-<code>DukesBDay</code> managed bean to call both the <code>DukesAgeResource</code> JAX-RS web
+<code>DukesBDay</code> managed bean to call both the <code>DukesAgeResource</code> Jakarta REST web
 service and the <code>DukesBirthdayBean</code> enterprise bean. It uses the
 <code>inputDate</code> composite component to create the input for the user to
 enter a birthday.</p>
@@ -2172,7 +2165,7 @@ language conditional operators to allow XML parsing of the XHTML file.</p>
 <div class="paragraph">
 <p>Table 4-1 Conditional Operator EL Language Alternatives</p>
 </div>
-<table class="tableblock frame-all grid-all" style="width: 60%;">
+<table class="tableblock frame-all grid-all stretch">
 <colgroup>
 <col style="width: 25%;">
 <col style="width: 40%;">
@@ -2462,7 +2455,7 @@ GlassFish Server and open-source Jakarta EE projects</p>
 </div>
 <div id="footer">
 <div id="footer-text">
-Last updated 2020-04-23 20:09:12 +0200
+Last updated 2020-04-24 13:54:47 UTC
 </div>
 </div>
 <style>
